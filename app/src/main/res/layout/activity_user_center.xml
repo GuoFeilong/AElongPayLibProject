@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#eeeeee">
+
+    <RelativeLayout
+        android:id="@+id/ll_temp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ll_user_container"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/icon_google" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Google" />
+
+        </LinearLayout>
+
+        <com.android.elong.WaveLineCenterView
+            android:id="@+id/wl_center"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            app:wave_amplifier="20"
+            app:wave_bottom_color="#ff99cc"
+            app:wave_first_color="#ff99cc"
+            app:wave_frequency="1.0"
+            app:wave_line_width="25dp"
+            app:wave_phase="45"
+            app:wave_phase_second="45"
+            app:wave_second_color="#00000000" />
+
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/ll_temp"
+        android:background="#ff99cc"
+        android:gravity="center"
+        android:text="这里是个人中心配置其他选项"
+        android:textColor="@android:color/white"
+        android:textSize="23sp">
+
+
+    </TextView>
+
+</RelativeLayout>

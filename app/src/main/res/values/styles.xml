@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="def_clearCircle_style">
+        <item name="cirle_color">@color/colorAccent</item>
+        <item name="clear_color">@android:color/white</item>
+    </style>
+
+    <style name="def_waveline_style">
+        <item name="wave_first_color">@color/colorAccent</item>
+        <item name="wave_second_color">@color/colorPrimary</item>
+        <item name="wave_bottom_color">@android:color/white</item>
+
+        <item name="wave_line_width">2dp</item>
+        <item name="wave_phase">45.0</item>
+        <item name="wave_phase_second">55.0</item>
+        <item name="wave_amplifier">60.0</item>
+        <item name="wave_frequency">1.0</item>
+    </style>
+
+    <style name="def_colorful_pb_style">
+        <item name="cpb_background_color">#eeeeee</item>
+    </style>
+
+    <style name="def_bottom_text_style">
+        <item name="bottom_icon">@mipmap/tel</item>
+        <item name="bottom_desc">13041477707</item>
+        <item name="bottom_text_size">20sp</item>
+        <item name="bottom_text_color">@color/colorAccent</item>
+    </style>
+</resources>

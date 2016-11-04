@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SelectableRoundedImageView">
+        <attr name="sriv_left_top_corner_radius" format="dimension" />
+        <attr name="sriv_right_top_corner_radius" format="dimension" />
+        <attr name="sriv_left_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_right_bottom_corner_radius" format="dimension" />
+        <attr name="sriv_border_width" format="dimension" />
+        <attr name="sriv_border_color" format="color" />
+        <attr name="sriv_oval" format="boolean" />
+        <attr name="android:scaleType" />
+    </declare-styleable>
+
+    <declare-styleable name="ClearCircleView">
+        <attr name="cirle_color" format="color" />
+        <attr name="clear_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="WaveLineView">
+        <attr name="wave_first_color" format="color" />
+        <attr name="wave_second_color" format="color" />
+        <attr name="wave_line_width" format="dimension" />
+        <attr name="wave_phase" format="float" />
+        <attr name="wave_phase_second" format="float" />
+        <attr name="wave_amplifier" format="float" />
+        <attr name="wave_bottom_color" format="color"/>
+        <attr name="wave_frequency" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorfulProgressBar">
+        <attr name="cpb_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="BottomTextIconView">
+        <attr name="bottom_icon" format="reference" />
+        <attr name="bottom_desc" format="string" />
+        <attr name="bottom_text_size" format="dimension" />
+        <attr name="bottom_text_color" format="color" />
+    </declare-styleable>
+</resources>
